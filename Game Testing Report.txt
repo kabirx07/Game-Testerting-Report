@@ -1,0 +1,140 @@
+Game Testing Report – Open World Gameplay Analysis
+
+Testing Type: Functional Testing, Gameplay Testing, Performance Testing
+
+
+Overview
+
+This report analyzes gameplay systems, user interface behavior, and performance across two major open-world games. The objective is to identify bugs, inconsistencies, and issues that may impact gameplay quality and player immersion.
+
+Testing was conducted across multiple scenarios including free roam exploration, NPC interaction, mission gameplay, and environmental interaction.
+
+Game Analysis: Grand Theft Auto V
+
+Test Scenarios
+Free roam exploration in urban environments
+Vehicle driving, collisions, and physics behavior
+NPC interaction in crowded areas
+Mission-based gameplay
+
+
+Bug Report 1: NPC Pathfinding Issue
+
+Area: Open World
+
+Steps to Reproduce:
+
+Navigate to a crowded street
+Stand near obstacles such as benches or poles
+Observe NPC movement
+
+Expected Result:
+NPCs should navigate smoothly around obstacles
+
+Actual Result:
+NPC gets stuck or repeatedly walks into objects
+
+Severity: Medium
+
+Impact: Breaks realism and immersion
+
+
+
+
+Bug Report 2: Vehicle Physics Inconsistency
+
+Area: Driving Mechanics
+
+Steps to Reproduce:
+
+Drive at high speed
+Collide with another vehicle or object
+
+Expected Result:
+Realistic collision physics
+
+Actual Result:
+Vehicle flips unnaturally or behaves inconsistently
+
+Severity: Medium
+
+Impact: Affects gameplay realism
+
+
+Performance Observations
+Frame drops in high-traffic areas
+Minor lag during high-speed driving
+Occasional rendering delays
+
+
+
+
+
+Game Analysis: Red Dead Redemption 2
+
+Test Scenarios
+Open-world exploration (towns & wilderness)
+NPC interaction and AI behavior
+Horse riding and environmental interaction
+Mission-based gameplay
+Bug Report 1: Animation Clipping
+
+Area: Character Interaction
+
+Steps to Reproduce:
+
+Interact with objects (doors, items)
+Observe character animations
+
+Expected Result:
+Smooth and realistic animations
+
+Actual Result:
+Character hands or objects clip through surfaces
+
+Severity: Low
+
+Impact: Reduces visual quality and immersion
+
+
+
+
+Bug Report 2: NPC Behavior Delay
+
+Area: AI Interaction
+
+Steps to Reproduce:
+
+Interact with NPCs in crowded towns
+Observe response timing
+
+Expected Result:
+Immediate and natural NPC reactions
+
+Actual Result:
+Delayed or unnatural responses
+
+Severity: Low to Medium
+
+Impact: Affects realism
+
+
+Performance Observations
+Frame drops in dense town areas
+Slight stuttering during camera movement
+Minor delays in asset loading
+
+
+
+Testing Approach
+
+Observed gameplay under different conditions
+Tested edge cases and player interactions
+Focused on realism, consistency, and performance
+
+
+Conclusion
+
+Both games provide highly immersive experiences with advanced gameplay systems. However, minor issues such as NPC behavior inconsistencies, physics glitches, and animation problems can impact overall quality. Structured testing and bug reporting help improve stability and enhance player experience.
+
+
